@@ -1,7 +1,7 @@
 import yfinance as yf # type: ignore
 from curl_cffi import requests # type: ignore
 
-# "Too Many Requests. Rate limited, Try after a while." 오류 해결
+# "Too Many Requests. Rate limited, Try after a while." 오류 해결   
 session = requests.Session(impersonate="chrome")
 
 # 티커설정
@@ -13,7 +13,7 @@ ticker = yf.Ticker("SLDP", session=session)
 
 samsung = yf.download('005930.KS', period='5y')
 print(samsung.head())
-print("###############")
+print("###############") 
 
 ##################
 # 주가정보 불러오기 
