@@ -2,7 +2,7 @@ import yfinance as yf # type: ignore
 from curl_cffi import requests # type: ignore
 
 
-# "Too Many Requests. Rate limited, Try after a while." 오류 해결   
+# "Too Many Requests. Rate limited, Try after a while." 오류 해결_20250725_1
 
 session = requests.Session(impersonate="chrome")
 
